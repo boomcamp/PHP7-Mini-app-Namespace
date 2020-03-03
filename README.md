@@ -17,7 +17,7 @@ For your PHP 7 activity you need to set up a `psr-4` autoloader class and implem
 }
 ```
 
-* Step 2.) Create the `BoomCamp/bootstrap.php` file it will load the generated `vendor` folder to be used by the application.
+* Step 2.) Create the `BoomCamp/bootstrap.php` file it will load the generated `vendor/` folder to be used by the application.
 
 ```
 <?php
