@@ -76,10 +76,10 @@ Jino Lacson
 ```
 
 
-### Specification
+# Requirements
 
 
-1.) Implement 5 calling functions for every namespace class
+1.) Implement **5 calling functions** for every namespace class
 
 * Students Object
 
