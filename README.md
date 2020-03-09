@@ -1,5 +1,5 @@
 # PHP7-Mini-app-Namespace.
-For your PHP 7 activity you need to set up a `psr-4` autoloader class and implement `use` declaration and class `namespacing`
+For your PHP 7 activity you need to set up a `psr-4` compliant and autoloader class and implement `use` declaration and class `namespacing`
 
 ### The initial Set-Up
 
