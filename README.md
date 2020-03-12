@@ -85,12 +85,12 @@ Jino Lacson
 
 2.) Inside `BoomCamp/index.php` instantiate your created objects
 
-3.) Create your basic PDO `crud` operations for every class objects.
+3.) Create your basic PDO `crud` operations for every class objects, [arguments](https://alvinalexander.com/php/php-read-command-line-arguments-in-php) should be readable in terminal.
 
 Example Insert for instructor class:
 
 ```
-dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php insert Jino Lacson 
 Created    : Jino Lacson was created...
 Updated    : Updated to jino g. lacson...
 Deleted    : jino g. lacson was deleted...
