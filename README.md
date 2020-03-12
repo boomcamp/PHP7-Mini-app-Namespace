@@ -75,6 +75,8 @@ Jino Lacson
 
 # Requirements
 
+Create PDO singleton connection class.
+
 1.) Implement **5 calling functions** for every namespace class
 
 * Students Object
