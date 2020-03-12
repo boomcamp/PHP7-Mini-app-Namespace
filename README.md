@@ -92,8 +92,20 @@ Example Insert for instructor class:
 ```
 dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php insert Jino Lacson 
 Created    : Jino Lacson was created...
-Updated    : Updated to jino g. lacson...
-Deleted    : jino g. lacson was deleted...
+```
+
+Example Update for instructor class:
+
+```
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php update 1 JINO LACSON 
+Updated    : JINO LACSON was updated...
+```
+
+Example Delete for instructor class:
+
+```
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php delete 1 
+Deleted    : JINO LACSON was deleted...
 ```
 
 Finished : Submit a link of the source code to the Google Classroom assignment related to this project.
