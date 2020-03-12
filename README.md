@@ -61,9 +61,7 @@ echo $mentor->getMentor();
 
 * Step 6. ) Start your `xampp` server and navigate to `http://localhost/BoomCamp` you should now have "Jino Lacson" as a result.
 
-
 **Console Output**
-
 
 ```
 dev@jino:/opt/lampp/htdocs/BoomCamp$ composer install
@@ -75,9 +73,7 @@ dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php
 Jino Lacson
 ```
 
-
 # Requirements
-
 
 1.) Implement **5 calling functions** for every namespace class
 
@@ -89,5 +85,15 @@ Jino Lacson
 
 2.) Inside `BoomCamp/index.php` instantiate your created objects
 
+3.) Create your basic PDO `crud` operations for every class objects.
+
+Example Insert for instructor class:
+
+```
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php
+Created    : Jino Lacson was created...
+Updated    : Updated to jino g. lacson...
+Deleted    : jino g. lacson was deleted...
+```
 
 Finished : Submit a link of the source code to the Google Classroom assignment related to this project.
