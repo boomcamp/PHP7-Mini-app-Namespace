@@ -92,7 +92,7 @@ class Database implements IDB {
 	//Your implementation for connection
 } 
 
-class Student 
+class Instructor 
 {
     private $instance = null;
 
@@ -100,20 +100,10 @@ class Student
         $this->instance = $instance;
     }
 
-    public function addStudent(string $student) {
-        return $this->instance->save('YOUR QUERY');
-    }
-
-    public function getStudent() : string{
-       return $this->instance->get('YOUR QUERY');
-    }
 }
 
 $instance = new Database('localhost', 'root', '', 'namespace_db');
-$user = new Student($instance);
-$user->addStudent("Gino Aquino");
-$user->getStudent(); //Gino Aquino
-
+$user = new Instructor($instance);
 ?>
 ```
 
