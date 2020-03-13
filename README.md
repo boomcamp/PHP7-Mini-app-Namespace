@@ -75,9 +75,11 @@ Jino Lacson
 
 # Requirements
 
-Create PDO singleton connection class.
+1.) Usage of PDO connection class [singleton pattern](https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php) to connect one instance for every Students, Instructor and Course objects.
 
-1.) Implement **5 calling functions** for every namespace class
+2.) Usage of dependency injection.
+
+3.) Implement **5 calling functions** for every namespace class
 
 * Students Object
 
@@ -85,9 +87,9 @@ Create PDO singleton connection class.
 
 * Course Object
 
-2.) Inside `BoomCamp/index.php` instantiate your created objects
+4.) Inside `BoomCamp/index.php` instantiate your created objects
 
-3.) Create your basic PDO `crud` operations for every class objects, [arguments](https://alvinalexander.com/php/php-read-command-line-arguments-in-php) should be readable in terminal.
+5.) Create your basic PDO `crud` operations for every class objects, [arguments](https://alvinalexander.com/php/php-read-command-line-arguments-in-php) should be readable in terminal.
 
 Example Insert for instructor class:
 
