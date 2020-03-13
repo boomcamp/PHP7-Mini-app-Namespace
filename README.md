@@ -112,21 +112,23 @@ $user = new Instructor($instance);
 
 5.) Create your basic PDO `crud` operations for every class objects, [arguments](https://alvinalexander.com/php/php-read-command-line-arguments-in-php) should be readable in terminal.
 
-Example Insert for instructor class:
+Example output for `Instructor` object:
+
+Insert:
 
 ```
 dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php insert Jino Lacson 
 Created    : Jino Lacson was created...
 ```
 
-Example Update for instructor class:
+Update :
 
 ```
 dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php update 1 JINO LACSON 
 Updated    : JINO LACSON was updated...
 ```
 
-Example Delete for instructor class:
+Delete :
 
 ```
 dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php delete 1 
