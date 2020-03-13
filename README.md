@@ -75,7 +75,7 @@ Jino Lacson
 
 # Requirements
 
-1.) Usage of PDO connection class [singleton pattern](https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php) to connect one instance for every Students, Instructor and Course objects.
+1.) Usage of PDO connection class [singleton pattern](https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php) to connect `one connection instance` for Students, Instructor and Course objects.
 
 2.) Usage of dependency injection.
 
