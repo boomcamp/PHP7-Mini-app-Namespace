@@ -59,16 +59,9 @@ echo $mentor->getMentor();
 
 * Step 5.) Run `composer install` to install `psr-4` and other related dependencies.
 
-* Step 6. ) Start your `xampp` server and navigate to `http://localhost/BoomCamp` you should now have "Jino Lacson" as a result.
-
-**Console Output**
+* Step 6. ) Open up terminal and start your `xampp` server, type `php index.php` you should now have "Jino Lacson" as the result.
 
 ```
-dev@jino:/opt/lampp/htdocs/BoomCamp$ composer install
-Loading composer repositories with package information
-Updating dependencies (including require-dev)
-Nothing to install or update
-Generating autoload files
 dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php
 Jino Lacson
 ```
