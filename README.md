@@ -79,6 +79,44 @@ Jino Lacson
 
 2.) Usage of dependency injection.
 
+Example Snippet:
+
+```
+<?php
+
+interface IDB {
+	//Your implementation
+}
+
+class Database implements IDB {
+	//Your implementation for connection
+} 
+
+class Student 
+{
+    private $instance = null;
+
+    public function __construct(Database $instance) {
+        $this->instance = $instance;
+    }
+
+    public function addStudent(string $student) {
+        return $this->instance->save('YOUR QUERY');
+    }
+
+    public function getStudent() : string{
+       return $this->instance->get('YOUR QUERY');
+    }
+}
+
+$instance = new Database('localhost', 'root', '', 'namespace_db');
+$user = new Student($instance);
+$user->addStudent("Gino Aquino");
+$user->getStudent(); //Gino Aquino
+
+?>
+```
+
 3.) Implement **5 calling functions** for every namespace class
 
 * Students Object
