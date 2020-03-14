@@ -68,6 +68,8 @@ Jino Lacson
 
 # Requirements
 
+Your main task is to implement object oriented design with the new PHP 7 syntax in this application.
+
 1.) Usage of PDO connection class [singleton pattern](https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php) to connect `one connection instance` for Students, Instructor and Course objects.
 
 2.) Usage of dependency injection.
@@ -100,17 +102,15 @@ $user = new Instructor($instance);
 ?>
 ```
 
-3.) Implement **5 calling functions** for every namespace class
+3.) Implementation of CRUD functionalities for every namespace class.
 
-* Students Object
+* Students
 
-* Instructor Object
+* Instructor
 
-* Course Object
+* Course
 
-4.) Inside `BoomCamp/index.php` instantiate your created objects
-
-5.) Create your basic PDO `crud` operations for every class objects, [arguments](https://alvinalexander.com/php/php-read-command-line-arguments-in-php) should be readable in terminal.
+6.) [Arguments](https://alvinalexander.com/php/php-read-command-line-arguments-in-php) should be readable in terminal.
 
 Example output for `Instructor` object:
 
