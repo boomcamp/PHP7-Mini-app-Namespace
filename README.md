@@ -138,3 +138,5 @@ Deleted    : JINO LACSON was deleted...
 ```
 
 Finished : Submit a link of the source code to the Google Classroom assignment related to this project.
+
+7.) Should also have a way to interact using HTML forms for CRUD operations.
