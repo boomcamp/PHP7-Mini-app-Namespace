@@ -99,6 +99,8 @@ class Instructor
 
 $instance = new Database('localhost', 'root', '', 'namespace_db');
 $user = new Instructor($instance);
+
+//Ensure to close any open connections after transactions
 ?>
 ```
 
