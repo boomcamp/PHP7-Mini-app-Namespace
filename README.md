@@ -70,7 +70,7 @@ Jino Lacson
 
 Your main task is to implement object oriented design with the new PHP 7 syntax in this application.
 
-1.) Usage of PDO connection class [singleton pattern](https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php) to connect `one connection instance` for Students, Instructor and Course objects.
+1.) Usage of PDO connection class [singleton pattern](https://phpenthusiast.com/blog/the-singleton-design-pattern-in-php) to connect `one connection instance`  and eliminate multiple loads for Students, Instructor and Course objects.
 
 2.) Usage of dependency injection.
 
