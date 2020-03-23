@@ -119,21 +119,21 @@ Example output for `Instructor` object:
 Insert:
 
 ```
-dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php insert Jino Lacson 
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php instructor insert Jino Lacson 
 Created    : Jino Lacson was created...
 ```
 
 Update :
 
 ```
-dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php update 1 JINO LACSON 
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php instructor update 1 JINO LACSON 
 Updated    : JINO LACSON was updated...
 ```
 
 Delete :
 
 ```
-dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php delete 1 
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php instructor delete 1 
 Deleted    : JINO LACSON was deleted...
 ```
 
