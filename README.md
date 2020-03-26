@@ -123,6 +123,16 @@ dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php instructor insert Jino Lacson
 Created    : Jino Lacson was created...
 ```
 
+Display:
+
+```
+dev@jino:/opt/lampp/htdocs/BoomCamp$ php index.php instructor display
+Lists    : 
+1.) Jino Lacson
+2.) Aodhan Hayter
+3.) Greg Doermann
+```
+
 Update :
 
 ```
