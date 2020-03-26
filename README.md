@@ -151,7 +151,7 @@ Finished : Submit a link of the source code to the Google Classroom assignment r
 
 7.) Should also have a way to interact using HTML forms for CRUD operations.
 
-8.) Should have a responsive layouts.
+8.) Responsive layouts is bonus.
 
 # Finished
 
